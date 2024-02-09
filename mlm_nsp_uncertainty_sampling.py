@@ -918,5 +918,6 @@ def main():
     model, optimizer, full_dataloader, train_dataloader, eval_dataloader, checkpointing_steps, lr_scheduler = prepare_model_optimizer_dataloaders(args, model, full_dataloader, train_dataloader, eval_dataloader, accelerator, logger)
     train_model(args, train_dataset, train_dataloader, eval_dataset, eval_dataloader, model, optimizer, checkpointing_steps, lr_scheduler, accelerator, num_samples, logger, data_collator, full_dataset, full_dataloader, tokenizer)
 
+# Run the main function
 if __name__ == "__main__":
     main()

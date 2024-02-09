@@ -799,5 +799,6 @@ def main():
         if accelerator.is_main_process:
             tokenizer.save_pretrained(args.output_dir)
 
+# Run the main function
 if __name__=="__main__":
     main()

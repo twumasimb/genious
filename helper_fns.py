@@ -10,4 +10,5 @@ def taylor_softmax_v1(x, dim=1, n=2, use_log=False):
         fn = fn + x.pow(i) / denor
     out = fn / fn.sum(dim=dim, keepdims=True)
     if use_log: out = out.log()
+    
     return out
