@@ -2,6 +2,13 @@ import os
 import subprocess
 from datetime import datetime
 import argparse
+from datasets import load_dataset
+
+# I want to test the system with the book corpus
+def download_book_corpus(directory):
+    # Load the dataset
+    dataset_dict = load_dataset('bookcorpus')
+    dataset_dict.save_to_disk(directory)
 
 def parse_args():
     parser=argparse.ArgumentParser(description="pre- BERT")
@@ -25,9 +32,11 @@ def main():
     args=parse_args()
     now=datetime.now()
     timestamp=now.strftime("%d_%m_%Y_%H:%M:%S")
-    prefix = "/home/UNT/tm0663/Documents/Projects/genious"
+    prefix = "/home/twumasimb/Projects/genious/"
     # Replace '/ingenious-data' with a directory where the user has write permissions, e.g., '/home/user/ingenious-data'
     # Replace '/home/user/ingenious-data' with a directory where the user has write permissions, e.g., '/home/tm0663/ingenious-data'
+    if not os.listdir(f'{prefix}datasets'):
+        download_book_corpus(f'{prefix}datasets')
     log_dir = prefix + "ingenious-data/logs/bert_uncertainty_sampling_2_"+timestamp+"/"
     model_dir = prefix + "ingenious-data/models/bert_uncertainty_sampling_2_"+timestamp +"/"
     subset_dir = prefix + "ingenious-data/subsets/bert_uncertainty_sampling_2_"+timestamp+"/"
