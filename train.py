@@ -56,7 +56,7 @@ def main():
         # "--seed", "23",
         "--model_type", "bert",
         "--max_seq_length", "128",
-        "--preprocessing_num_workers", "96",
+        "--preprocessing_num_workers", "16",
         "--mlm_probability" ,"0.15",
         "--short_seq_prob", "0.1",
         "--nsp_probability", "0.5",
