@@ -341,7 +341,7 @@ def initialize_model(args, logger):
         logger.info("Training a new model from scratch")
         model = AutoModelForPreTraining.from_config(config)
 
-    model.resize_token_embeddings(len(tokenizer))
+    model.resize_token_embeddings(len(tokenizer), pad_to_multiple_of=16)
 
     return model, tokenizer
     
