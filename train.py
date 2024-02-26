@@ -45,7 +45,7 @@ def main():
     os.makedirs(model_dir, exist_ok=True)
     os.makedirs(subset_dir, exist_ok=True)
     l=[
-        "accelerate", "launch", "--main_process_port", f"{args.main_process_port}", "mlm_nsp_uncertainty_sampling.py", #mlm_nsp_original
+        "accelerate", "launch", "--main_process_port", f"{args.main_process_port}", "mlm_nsp_original.py" #"mlm_nsp_uncertainty_sampling.py", #mlm_nsp_original
         # "--preprocessed",
         "--log_dir", log_dir,
         "--subset_dir", subset_dir,
@@ -56,16 +56,16 @@ def main():
         "--per_device_train_batch_size", "128",
         "--per_device_eval_batch_size", "128",
         "--learning_rate", "1e-4",
-        "--lr_max_steps", "1000000",
+        "--lr_max_steps", "1000",
         "--weight_decay" ,"0.01",
-        "--max_train_steps", "1000000",
+        "--max_train_steps", "1000",
         "--gradient_accumulation_steps", "1",
         "--num_warmup_steps", "10000",
         "--output_dir", model_dir,
         # "--seed", "23",
         "--model_type", "bert",
         "--max_seq_length", "128",
-        "--preprocessing_num_workers", "96",
+        "--preprocessing_num_workers", "8",
         "--mlm_probability" ,"0.15",
         "--short_seq_prob", "0.1",
         "--nsp_probability", "0.5",

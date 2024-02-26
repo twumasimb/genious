@@ -298,7 +298,6 @@ def load_data(args):
 
     return raw_datasets
 
-
 def initialize_model(args, logger):
     """
     Initializes the model, configuration, and tokenizer.
@@ -348,6 +347,7 @@ def initialize_model(args, logger):
     
     
     # Preprocessing code...
+
 def preprocess_datasets(args, raw_datasets, tokenizer, accelerator, logger, random):
     """
     Preprocesses the datasets by tokenizing the texts and generating chunks of max_seq_length.
@@ -916,7 +916,7 @@ def main():
     model, tokenizer = initialize_model(args, logger)
     full_dataloader, train_dataloader, eval_dataloader, num_samples, data_collator, full_dataset,train_dataset, eval_dataset = preprocess_datasets(args, raw_datasets, tokenizer, accelerator, logger, random)
     model, optimizer, full_dataloader, train_dataloader, eval_dataloader, checkpointing_steps, lr_scheduler = prepare_model_optimizer_dataloaders(args, model, full_dataloader, train_dataloader, eval_dataloader, accelerator, logger)
-    train_model(args, train_dataset, train_dataloader, eval_dataset, eval_dataloader, model, optimizer, checkpointing_steps, lr_scheduler, accelerator, num_samples, logger, data_collator, full_dataset, full_dataloader, tokenizer)
+    train_model(args, train_dataset, train_dataloader, eval_dataset, eval_dataloader, model, optimizer, checkpointing_steps, lr_scheduler, accelerator, num_samples, logger, data_collator, full_dataset, tokenizer)
 
 # Run the main function
 if __name__ == "__main__":
