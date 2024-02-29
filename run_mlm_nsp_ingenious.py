@@ -28,7 +28,7 @@ from transformers import (
 from transformers.utils.versions import require_version
 from selectionstrategies import SubmodStrategy
 from accelerate import InitProcessGroupKwargs
-from helper_fns import taylor_softmax_v1
+from selectionstrategies.helper_fns import taylor_softmax_v1
 import numpy as np
 import pickle
 import faiss
