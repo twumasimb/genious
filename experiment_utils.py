@@ -80,10 +80,12 @@ def group_texts(examples, idx, split, tokenizer, max_seq_length, short_seq_prob,
                     # back to add more randomness and avoid biases.
                     if random.random()<0.5:
                         for k in trunc_tokens.keys():
-                            del trunc_tokens[k][0]
+                            if trunc_tokens[k]:
+                                del trunc_tokens[k][0]
                     else:
                         for k in trunc_tokens.keys():
-                            trunc_tokens[k].pop()
+                            if trunc_tokens[k]:
+                                trunc_tokens[k].pop()
                 inp={k: v[:-1] for k, v in tokenizer("", return_special_tokens_mask=True).items()}
                 for k, v in tokens_a.items():
                     inp[k].extend(v)
