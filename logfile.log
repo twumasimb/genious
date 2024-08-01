@@ -6,3 +6,108 @@
 2024-07-31 23:57:26,150 - __main__ - INFO - Logger created
 2024-08-01 00:00:42,477 - __main__ - INFO - Logger created
 2024-08-01 00:15:16,921 - __main__ - INFO - Starting Subset Selection
+2024-08-01 14:10:45,636 - __main__ - INFO - Logger created
+2024-08-01 14:11:30,731 - __main__ - INFO - Logger created
+2024-08-01 14:22:20,080 - __main__ - INFO - Starting Subset Selection
+2024-08-01 14:41:16,852 - __main__ - INFO - Starting Subset Selection
+2024-08-01 14:58:23,043 - __main__ - INFO - Starting Subset Selection
+2024-08-01 14:59:55,849 - __main__ - INFO - Logger created
+2024-08-01 15:01:22,899 - __main__ - INFO - Logger created
+2024-08-01 15:10:01,531 - __main__ - INFO - Starting Subset Selection
+2024-08-01 15:17:18,424 - __main__ - INFO - Logger created
+2024-08-01 15:26:24,547 - __main__ - INFO - Starting Subset Selection
+2024-08-01 15:26:26,342 - __main__ - INFO - Ending Subset Selection
+2024-08-01 15:26:26,343 - __main__ - INFO - SMI algorithm subset selection time is 1.7946
+2024-08-01 15:50:45,699 - __main__ - INFO - Starting Subset Selection
+2024-08-01 15:50:46,575 - __main__ - INFO - Ending Subset Selection
+2024-08-01 15:50:46,575 - __main__ - INFO - SMI algorithm subset selection time is 0.8752
+2024-08-01 15:57:49,734 - __main__ - INFO - Logger created
+2024-08-01 15:57:49,734 - __main__ - INFO - Logger created
+2024-08-01 16:06:24,018 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:06:24,018 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:06:24,770 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:06:24,770 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:06:24,771 - __main__ - INFO - SMI algorithm subset selection time is 0.7518
+2024-08-01 16:06:24,771 - __main__ - INFO - SMI algorithm subset selection time is 0.7518
+2024-08-01 16:18:31,898 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:18:31,898 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:18:33,718 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:18:33,718 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:18:33,719 - __main__ - INFO - SMI algorithm subset selection time is 1.8199
+2024-08-01 16:18:33,719 - __main__ - INFO - SMI algorithm subset selection time is 1.8199
+2024-08-01 16:35:44,267 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:35:44,267 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:35:44,971 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:35:44,971 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:35:44,972 - __main__ - INFO - SMI algorithm subset selection time is 0.7036
+2024-08-01 16:35:44,972 - __main__ - INFO - SMI algorithm subset selection time is 0.7036
+2024-08-01 16:50:11,694 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:50:11,694 - __main__ - INFO - Starting Subset Selection
+2024-08-01 16:50:13,460 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:50:13,460 - __main__ - INFO - Ending Subset Selection
+2024-08-01 16:50:13,461 - __main__ - INFO - SMI algorithm subset selection time is 1.7664
+2024-08-01 16:50:13,461 - __main__ - INFO - SMI algorithm subset selection time is 1.7664
+2024-08-01 17:01:23,811 - __main__ - INFO - Starting Subset Selection
+2024-08-01 17:01:23,811 - __main__ - INFO - Starting Subset Selection
+2024-08-01 17:01:24,555 - __main__ - INFO - Ending Subset Selection
+2024-08-01 17:01:24,555 - __main__ - INFO - Ending Subset Selection
+2024-08-01 17:01:24,555 - __main__ - INFO - SMI algorithm subset selection time is 0.7425
+2024-08-01 17:01:24,555 - __main__ - INFO - SMI algorithm subset selection time is 0.7425
+2024-08-01 17:19:59,945 - __main__ - INFO - Starting Subset Selection
+2024-08-01 17:19:59,945 - __main__ - INFO - Starting Subset Selection
+2024-08-01 17:20:00,798 - __main__ - INFO - Ending Subset Selection
+2024-08-01 17:20:00,798 - __main__ - INFO - Ending Subset Selection
+2024-08-01 17:20:00,798 - __main__ - INFO - SMI algorithm subset selection time is 0.8524
+2024-08-01 17:20:00,798 - __main__ - INFO - SMI algorithm subset selection time is 0.8524
+2024-08-01 17:34:59,741 - __main__ - INFO - Starting Subset Selection
+2024-08-01 17:34:59,741 - __main__ - INFO - Starting Subset Selection
+2024-08-01 17:35:00,564 - __main__ - INFO - Ending Subset Selection
+2024-08-01 17:35:00,564 - __main__ - INFO - Ending Subset Selection
+2024-08-01 17:35:00,565 - __main__ - INFO - SMI algorithm subset selection time is 0.8230
+2024-08-01 17:35:00,565 - __main__ - INFO - SMI algorithm subset selection time is 0.8230
+2024-08-01 17:38:51,800 - __main__ - INFO - Completed Steps: 1; Loss: 9.72438907623291; lr: [0.0];
+2024-08-01 17:38:51,800 - __main__ - INFO - Completed Steps: 1; Loss: 9.72438907623291; lr: [0.0];
+2024-08-01 17:38:55,826 - __main__ - INFO - Completed Steps: 2; Loss: 9.37779426574707; lr: [0.0];
+2024-08-01 17:38:55,826 - __main__ - INFO - Completed Steps: 2; Loss: 9.37779426574707; lr: [0.0];
+2024-08-01 17:38:57,969 - __main__ - INFO - Completed Steps: 3; Loss: 10.040948867797852; lr: [0.0];
+2024-08-01 17:38:57,969 - __main__ - INFO - Completed Steps: 3; Loss: 10.040948867797852; lr: [0.0];
+2024-08-01 17:38:59,897 - __main__ - INFO - Completed Steps: 4; Loss: 9.97786808013916; lr: [0.0];
+2024-08-01 17:38:59,897 - __main__ - INFO - Completed Steps: 4; Loss: 9.97786808013916; lr: [0.0];
+2024-08-01 17:39:01,736 - __main__ - INFO - Completed Steps: 5; Loss: 9.785844802856445; lr: [0.0];
+2024-08-01 17:39:01,736 - __main__ - INFO - Completed Steps: 5; Loss: 9.785844802856445; lr: [0.0];
+2024-08-01 17:39:03,023 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 17:39:03,023 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 17:39:50,121 - __main__ - INFO - Completed Steps: 1; Loss: 10.921751976013184; lr: [0.0];
+2024-08-01 17:39:50,121 - __main__ - INFO - Completed Steps: 1; Loss: 10.921751976013184; lr: [0.0];
+2024-08-01 17:39:51,873 - __main__ - INFO - Completed Steps: 2; Loss: 9.582311630249023; lr: [0.0];
+2024-08-01 17:39:51,873 - __main__ - INFO - Completed Steps: 2; Loss: 9.582311630249023; lr: [0.0];
+2024-08-01 17:39:53,749 - __main__ - INFO - Completed Steps: 3; Loss: 9.823996543884277; lr: [0.0];
+2024-08-01 17:39:53,749 - __main__ - INFO - Completed Steps: 3; Loss: 9.823996543884277; lr: [0.0];
+2024-08-01 17:39:55,789 - __main__ - INFO - Completed Steps: 4; Loss: 9.708429336547852; lr: [0.0];
+2024-08-01 17:39:55,789 - __main__ - INFO - Completed Steps: 4; Loss: 9.708429336547852; lr: [0.0];
+2024-08-01 17:39:57,589 - __main__ - INFO - Completed Steps: 5; Loss: 9.889716148376465; lr: [0.0];
+2024-08-01 17:39:57,589 - __main__ - INFO - Completed Steps: 5; Loss: 9.889716148376465; lr: [0.0];
+2024-08-01 17:39:58,859 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 17:39:58,859 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 17:43:55,412 - __main__ - INFO - Completed Steps: 1; Loss: 9.88115119934082; lr: [0.0];
+2024-08-01 17:43:55,412 - __main__ - INFO - Completed Steps: 1; Loss: 9.88115119934082; lr: [0.0];
+2024-08-01 17:43:57,236 - __main__ - INFO - Completed Steps: 2; Loss: 10.027271270751953; lr: [0.0];
+2024-08-01 17:43:57,236 - __main__ - INFO - Completed Steps: 2; Loss: 10.027271270751953; lr: [0.0];
+2024-08-01 17:43:58,984 - __main__ - INFO - Completed Steps: 3; Loss: 9.865110397338867; lr: [0.0];
+2024-08-01 17:43:58,984 - __main__ - INFO - Completed Steps: 3; Loss: 9.865110397338867; lr: [0.0];
+2024-08-01 17:44:00,884 - __main__ - INFO - Completed Steps: 4; Loss: 9.699809074401855; lr: [0.0];
+2024-08-01 17:44:00,884 - __main__ - INFO - Completed Steps: 4; Loss: 9.699809074401855; lr: [0.0];
+2024-08-01 17:44:02,677 - __main__ - INFO - Completed Steps: 5; Loss: 9.827841758728027; lr: [0.0];
+2024-08-01 17:44:02,677 - __main__ - INFO - Completed Steps: 5; Loss: 9.827841758728027; lr: [0.0];
+2024-08-01 17:44:03,945 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 17:44:03,945 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 17:47:07,818 - __main__ - INFO - Completed Steps: 6; Loss: 10.135549545288086; lr: [0.0];
+2024-08-01 17:47:07,818 - __main__ - INFO - Completed Steps: 6; Loss: 10.135549545288086; lr: [0.0];
+2024-08-01 17:47:09,756 - __main__ - INFO - Completed Steps: 7; Loss: 9.760773658752441; lr: [0.0];
+2024-08-01 17:47:09,756 - __main__ - INFO - Completed Steps: 7; Loss: 9.760773658752441; lr: [0.0];
+2024-08-01 17:47:11,962 - __main__ - INFO - Completed Steps: 8; Loss: 10.53001594543457; lr: [0.0];
+2024-08-01 17:47:11,962 - __main__ - INFO - Completed Steps: 8; Loss: 10.53001594543457; lr: [0.0];
+2024-08-01 17:47:14,166 - __main__ - INFO - Completed Steps: 9; Loss: 10.352571487426758; lr: [0.0];
+2024-08-01 17:47:14,166 - __main__ - INFO - Completed Steps: 9; Loss: 10.352571487426758; lr: [0.0];
+2024-08-01 17:47:16,207 - __main__ - INFO - Completed Steps: 10; Loss: 11.284998893737793; lr: [0.0];
+2024-08-01 17:47:16,207 - __main__ - INFO - Completed Steps: 10; Loss: 11.284998893737793; lr: [0.0];

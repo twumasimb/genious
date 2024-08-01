@@ -125,16 +125,22 @@ class SubmodStrategy():
         if self.partition_strategy not in ["random", "kmeans_clustering"]:
             assert self.num_partitions == 1, "Partition strategy {} not implemented for {} partitions".format(self.partition_strategy, self.num_partitions)
         
-        greedyIdxs=[]
+        # greedyIdxs=[]
 
-        for p in partition_indices:
-            print(len(p))
+        # for p in partition_indices:
+        #     print(len(p))
+
+        # if len(partition_budgets) == len(partition_indices):
+        #     print("Partition indices and partion")
+        #partition_indices = [partition for partition in partition_indices if len(partition) > 0]
+        partition_indices = [partition for partition, budget in zip(partition_indices, partition_budgets) if len(partition) > 0]
+        partition_budgets = [budget for partition, budget in zip(partition_indices, partition_budgets) if len(partition) > 0]
 
         # Parallel computation of subsets
         with Pool(parallel_processes) as pool:
             greedyIdx_list=list(tqdm.tqdm(pool.imap_unordered(partition_subset_strat, 
                                                     query_generator(representations, partition_indices, partition_budgets, self.smi_func_type, self.optimizer, self.metric, self.sparse_rep, return_gains)), total=len(partition_indices)))
-        
+
         if return_gains:
             gains=[p[1] for p in greedyIdx_list]
             greedyIdx_list=[p[0] for p in greedyIdx_list]
