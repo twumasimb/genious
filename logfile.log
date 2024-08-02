@@ -111,3 +111,27 @@
 2024-08-01 17:47:14,166 - __main__ - INFO - Completed Steps: 9; Loss: 10.352571487426758; lr: [0.0];
 2024-08-01 17:47:16,207 - __main__ - INFO - Completed Steps: 10; Loss: 11.284998893737793; lr: [0.0];
 2024-08-01 17:47:16,207 - __main__ - INFO - Completed Steps: 10; Loss: 11.284998893737793; lr: [0.0];
+2024-08-01 22:06:20,974 - __main__ - INFO - Logger created
+2024-08-01 22:58:09,186 - __main__ - INFO - Starting Subset Selection
+2024-08-01 22:58:10,121 - __main__ - INFO - Ending Subset Selection
+2024-08-01 22:58:10,121 - __main__ - INFO - SMI algorithm subset selection time is 0.9334
+2024-08-01 22:58:58,687 - __main__ - INFO - Starting Subset Selection
+2024-08-01 22:58:59,482 - __main__ - INFO - Ending Subset Selection
+2024-08-01 22:58:59,482 - __main__ - INFO - SMI algorithm subset selection time is 0.7936
+2024-08-01 22:59:29,279 - __main__ - INFO - Completed Steps: 1; Loss: 9.798796653747559; lr: [0.0];
+2024-08-01 22:59:29,522 - __main__ - INFO - Completed Steps: 2; Loss: 9.763287544250488; lr: [0.0];
+2024-08-01 22:59:29,625 - __main__ - INFO - Completed Steps: 3; Loss: 9.985318183898926; lr: [0.0];
+2024-08-01 22:59:29,716 - __main__ - INFO - Completed Steps: 4; Loss: 9.927911758422852; lr: [0.0];
+2024-08-01 22:59:29,813 - __main__ - INFO - Completed Steps: 5; Loss: 9.81973934173584; lr: [0.0];
+2024-08-01 22:59:29,932 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 23:00:27,479 - __main__ - INFO - Completed Steps: 1; Loss: 9.571968078613281; lr: [0.0];
+2024-08-01 23:00:27,689 - __main__ - INFO - Completed Steps: 2; Loss: 9.955591201782227; lr: [0.0];
+2024-08-01 23:00:27,795 - __main__ - INFO - Completed Steps: 3; Loss: 10.038454055786133; lr: [0.0];
+2024-08-01 23:00:27,892 - __main__ - INFO - Completed Steps: 4; Loss: 9.505019187927246; lr: [0.0];
+2024-08-01 23:00:27,987 - __main__ - INFO - Completed Steps: 5; Loss: 9.882936477661133; lr: [0.0];
+2024-08-01 23:00:28,106 - __main__ - INFO - Performing Subset selection for NSP class 1
+2024-08-01 23:00:33,551 - __main__ - INFO - Completed Steps: 6; Loss: 9.989301681518555; lr: [0.0];
+2024-08-01 23:00:33,661 - __main__ - INFO - Completed Steps: 7; Loss: 9.688522338867188; lr: [0.0];
+2024-08-01 23:00:33,774 - __main__ - INFO - Completed Steps: 8; Loss: 10.471647262573242; lr: [0.0];
+2024-08-01 23:00:33,871 - __main__ - INFO - Completed Steps: 9; Loss: 9.648688316345215; lr: [0.0];
+2024-08-01 23:00:33,978 - __main__ - INFO - Completed Steps: 10; Loss: 9.526508331298828; lr: [0.0];
